@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+html,
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.F-body {
+    background-color: white;
+    height: 150vh;
+    /* width: 110vh; */
+    max-width: 145vh;
+    overflow-x: scroll;
+}
+
+#img {
+    width: 20vh;
+    height: 20vh;
+    margin: 20px;
+}
+
+.s-info {
+    display: flex;
+}
+
+/* #b-title{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+} */
+
+#name {
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 60px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.info {
+    font-family: 'Oswald', sans-serif;
+    margin-left: 20px;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size: 21px;
+}
+
+.Session {
+    margin-left: 2px;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#a-n {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: left;
+    color: red;
+}
+
+#a-nn {
+    justify-content: left;
+    text-align: center;
+    margin-left: 12px;
+    margin-top: 17px;
+    /* border-color: aqua;
+    width: 10vh; 
+    */
+    height: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.a-f {
+    display: flex;
+    margin-top: 10px;
+    /* width: 65vh; */
+}
+
+#pic {
+    background-color: turquoise;
+    width: 20vh;
+    height: 23vh;
+    margin-left: 30vh;
+    /* font-family: 'Oswald', sans-serif; */
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    /* margin-top: 25px; */
+}
+
+#pic:hover {
+    /* margin-top: 25px; */
+    color: turquoise;
+    background-color: grey;
+    /* font-family: 'Fuzzy Bubbles', cursive; */
+}
+
+.NOS {
+    font-family: 'Oswald', sans-serif;
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.nos {
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+    width: 235px;
+    height: 27px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.f-ec {
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+    width: 21vh;
+    height: 27px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.naaog {
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+    width: 60vh;
+    height: 27px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+
+.atc {
+    font-family: 'Oswald', sans-serif;
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top: 5vh;
+}
+
+.p-s {
+    display: flex;
+    justify-content: right;
+    font-family: 'Oswald', sans-serif;
+    margin-right: 40px;
+}
+
+.p-s,
+span {
+    margin-top: 5vh;
+    font-size: 20px;
+}
+
+.s-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
