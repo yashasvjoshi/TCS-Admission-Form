@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <script src="script.js" defer></script>
     <div class="F-body">
         <div class="s-info">
             <img id="img"
@@ -24,13 +25,13 @@
             <h1 id="name">The Cambridge School</h1>
         </div>
         <div class="info">
-            <span>Session : </span>
+            <span class="text-details">Session : </span>
             <span> 20</span>
             <input type="number" placeholder="" class="Session">
             <span> -20</span>
             <input type="number" placeholder="" class="Session">
             <div class="a-f">
-                <h1 id="a-n">Admission Number : </h1>
+                <h1 id="a-n" class="text-details">Admission Number : </h1>
                 <input type="number" id="a-nn">
                 <div id="pic">
                     <span>Stamp Size Photo</span>
@@ -40,72 +41,67 @@
         </div>
         <div class="fill">
             <div class="NOS">
-                <span>1. Name of Student : </span>
-                <input type="text" class="nos">
+                <span id="1arg" class="text-details">1. Name of Student : </span>
+                <input type="text" name="1value" value="" class="nos">
             </div>
             <div class="NOS">
-                <span>2. Date of Birth : </span>
+                <span class="text-details">2. Date of Birth : </span>
                 <input type="date" class="nos">
             </div>
             <div class="NOS">
-                <span>3. Father's Name : </span>
+                <span class="text-details">3. Father's Name : </span>
                 <input type="text" class="nos">
             </div>
             <div class="NOS">
-                <span>4. Mother's Name : </span>
+                <span class="text-details">4. Mother's Name : </span>
                 <input type="text" class="nos">
             </div>
             <div class="NOS occupation">
-                <span>5. Occupation: Father </span>
+                <span class="text-details">5. Occupation: Father </span>
                 <input type="text" class="nos">
-                <span>Mother</span>
+                <span class="text-details">Mother</span>
                 <input type="text" class="nos">
             </div>
             <div class="NOS e-classifications">
-                <span>6. Education Classifications : Father </span>
+                <span class="text-details">6. Education Classifications : Father </span>
                 <input type="text" class="f-ec">
-                <span>Mother</span>
+                <span class="text-details">Mother</span>
                 <input type="text" class="nos">
             </div>
             <div class="NOS">
-                <span>7. Address : </span>
+                <span class="text-details">7. Address : </span>
                 <input type="text" class="nos">
             </div>
             <div class="NOS">
-                <span>8. Phone No. </span>
+                <span class="text-details">8. Phone No. </span>
                 <input type="text" class="nos">
             </div>
             <div class="NOS">
-                <span>9.Name and Address of Guardian : </span>
+                <span class="text-details">9.Name and Address of Guardian : </span>
                 <input type="text" class="naaog">
             </div>
             <div class="NOS e-classifications">
-                <span>10. Nationality </span>
+                <span class="text-details">10. Nationality </span>
                 <input type="text" class="f-ec">
-                <span> Religion</span>
+                <span class="text-details"> Religion</span>
                 <input type="text" class="nos">
             </div>
             <div class="NOS">
-                <span>11.Class in which Admission Sought : </span>
+                <span class="text-details">11.Class in which Admission Sought : </span>
                 <input type="text" class="naaog">
             </div>
             <div class="atc">
-                <span>Admission To Class </span>
+                <span class="text-details">Admission To Class </span>
                 <input type="text" class="nos">
             </div>
             <div class="p-s">
                 <span>Principal </span>
             </div>
             <div class="s-b">
-                <button class="btn btn-primary" onclick="relod()" >Submit</button>
+                <button id="s-btn" class="btn btn-primary">Submit</button>
             </div>
         </div>
     </div>
-    <script>
-        const relod =()=>{
-            window.location.reload()
-        }
-    </script>
 </body>
 
 </html>
